@@ -41,7 +41,7 @@ class API::DreamsController < ApplicationController
     end
 
     def dream_params
-      params.require(:dream)permit(:name, :description, :sleep_hours, :likes)
+      params.require(:dream).permit(:name, :description, :sleep_hours, :likes)
     end
 
 end
