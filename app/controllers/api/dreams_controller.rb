@@ -1,5 +1,5 @@
 class API::DreamsController < ApplicationController
-  before_action :find_dream, only: [:show, :update, :destroy]
+  before_action :set_dream, only: [:show, :update, :destroy]
 
   def index
     render json: Dream.all
@@ -36,7 +36,7 @@ class API::DreamsController < ApplicationController
 
   private
 
-    def find_dream
+    def set_dream
       @dream = Dream.find_by(id: params[:id])
     end
 

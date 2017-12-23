@@ -1,5 +1,5 @@
 class Dream < ApplicationRecord
-  validates :name, :description, :sleep_hours presence: true
+  # validates :name, :description, :sleep_hours, presence: true
 
   before_create :set_likes
 
