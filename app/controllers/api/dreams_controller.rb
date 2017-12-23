@@ -1,4 +1,4 @@
-class API::DreamsController < ApplicationController
+class Api::DreamsController < ApplicationController
   before_action :set_dream, only: [:show, :update, :destroy]
 
   def index
