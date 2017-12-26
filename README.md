@@ -1,24 +1,22 @@
-# README
+# DreamState
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DreamState is a single page application (SPA) built with a Rails API back-end and React/Redux front-end. I built this app to log my dreams and hopefully grow it to allow others to do the same. This project is for the Flatiron School final product.
 
-Things you may want to cover:
+# Installation & Usage
 
-* Ruby version
+Clone this repo along with the client side and run the following commands.
 
-* System dependencies
+```
+$ cd dreamstate-api
+$ bundle install
+$ rails s -p 3001
 
-* Configuration
+$ cd dreamstate-client
+$ npm install
+$ npm start
 
-* Database creation
+## Contributing
+Bug reports and pull requests are welcome on GitHub [here](https://github.com/alecgalba/dreamstate-client). This project is intended to be an open place for contribution and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org/) code of conduct.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# License
+This Web Application is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
