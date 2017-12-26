@@ -1,6 +1,6 @@
 # DreamState
 
-DreamState is a single page application (SPA) built with a Rails API back-end and React/Redux front-end. I built this app to log my dreams and hopefully grow it to allow others to do the same. This project is for the Flatiron School final product.
+DreamState is a single page application (SPA) built with a Rails API back-end and React/Redux front-end. I built this app to log my dreams and hopefully grow it to allow others to do the same. This project is for the Flatiron School final project.
 
 # Installation & Usage
 
