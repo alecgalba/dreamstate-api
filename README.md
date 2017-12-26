@@ -14,6 +14,7 @@ $ rails s -p 3001
 $ cd dreamstate-client
 $ npm install
 $ npm start
+```
 
 ## Contributing
 Bug reports and pull requests are welcome on GitHub [here](https://github.com/alecgalba/dreamstate-client). This project is intended to be an open place for contribution and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org/) code of conduct.
