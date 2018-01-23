@@ -4,7 +4,7 @@ DreamState is a single page application (SPA) built with a Rails API back-end an
 
 # Installation & Usage
 
-Clone this repo along with the client side and run the following commands.
+Clone this repo along with the [client side](https://github.com/alecgalba/dreamstate-client) and run the following commands.
 
 ```
 $ cd dreamstate-api
